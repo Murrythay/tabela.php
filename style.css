@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+table{
+    width: 100%;
+    margin: 12px;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(  rgb(41, 247, 168) rgb(0, 247, 255))
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#btn_criar {
+    background-color: teal;
+    margin: 0 12px;
+}
+#btn_criar a{
+    color: white;
+}
+#busca{
+    height: 24px;
+    margin-right:5px ;
+}
+#campo_pesquisa{
+    margin: 0 12px;
+}
+#btn_pesquisa{
+    border: none;
+    background-color: white;
+    color: aqua;
+}
+#btn_delete{
+    color: brown;
+}
+#btn_editar{
+    color: black;
+}
+#container_topo{
+    margin-top: 12px;
+}
